@@ -1,0 +1,160 @@
+
+.titleBK{
+    height: 60px;
+    width: 100%;
+    /*align-content: center;*/
+}
+.titleTop{
+    line-height: 30px;
+    font-size: 25px;
+    color: darkorange;
+    text-align: center;
+}
+.titleBottom{
+    line-height: 30px;
+    font-size: 15px;
+    color: darkorange;
+    text-align: center;
+}
+
+.dogAndCat{
+    /*padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;*/
+    margin: 20px auto 0 auto;
+    height: 100px;
+    width: 300px;
+
+}
+.dog{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.cat{
+    width:50%;
+    height: 100px;
+    float: right;
+}
+
+.radio{
+    margin-bottom: 15px;
+}
+.radio_name1{
+    color: white;
+    font-size: 14px;
+    margin-left: 30%;
+}
+.radio_name2{
+    color: white;
+    font-size: 14px;
+    margin-left: 25%;
+}
+
+.category{
+    width: 100%;
+    height: 170px;
+    /*padding: 0px 50px 0px 50px;*/
+    /*align-items: center;*/
+    /*display:initial;*/
+    /*background-color: greenyellow;*/
+}
+.category_title{
+    color: white;
+    font-size: 15px;
+    float: left;
+    line-height: 25px;
+}
+.category_bc{
+    margin: 10px auto;
+    /*margin-top: 20px;*/
+    width: 280px;
+    height: 25px;
+    /*display: block;*/
+
+}
+.category_bc0{
+    margin: 10px auto;
+    height: 25px;
+    margin-top: 10px;
+    width: 290px;
+}
+.category_bc1{
+    height: 25px;
+    margin: 20px auto;
+    width: 280px;
+}
+.category1{
+    background-color: white;
+    float: left;
+    width: 200px;
+    border: 1px solid darkorange;
+    border-radius: 10px;
+    height: 25px;
+    margin-left: 10px;
+
+}
+.select{
+    height: 25px;
+    width: 25px;
+    float: right;
+}
+.category2{
+    background-color: white;
+    float: left;
+    width: 80px;
+    height: 25px;
+    border: 1px solid darkorange;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.category2 category2_1{
+    margin-left: 0px;
+}
+
+.category3{
+    margin-left: 20px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.category4{
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid darkorange;
+    height: 25px;
+    width: 210px;
+    float: left;
+    border-radius: 10px;
+}
+.input{
+    font-size: 14;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.submit_bc{
+    margin-top: 20px;
+}
+.submit{
+    color: white;
+    background-color: darkorange;
+    width: 200px;
+    line-height: 40px;
+    margin: 60px auto;
+    border-radius: 5px;
+}
+
+.picker{
+    float: left;
+    padding-left: 5px;
+    line-height: 25px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.yearAndMonth{
+    float: left;
+    font-size: 15px;
+    line-height: 25px;
+    width: 50px;
+    padding-left: 5px;
+}

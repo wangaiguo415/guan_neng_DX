@@ -1,0 +1,14 @@
+<view class="container_w">
+    <view class="welcome welcomeText">欢迎回来</view>
+    <view class="welcomeText detailText">
+        <text>在幼犬猫活动中登记的信息</text>
+    </view>
+    <view class="welcomeText detailText">
+        <text>我们已经为您直接保留</text>
+    </view>
+    <view class="welcomeText detailText">
+        <text>点击确认即可完成登记</text>
+    </view>
+
+    <button class="welcomeBtn" bindtap="toNext">确认</button>
+</view>

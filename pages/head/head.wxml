@@ -1,0 +1,85 @@
+<view class="container">
+  <view class="topLogo">
+    <image class="leftLogo" src="../../img/logo_left.png" mode="aspectFit"></image>
+    <image class="rightLogo" src="../../img/logo_right.png" mode="aspectFit"></image>
+  </view>
+  <view class="titleBK">
+    <view class="titleTop">欢迎光临冠能展台</view>
+    <view class="titleBottom">登记信息 领取礼品</view>
+  </view>
+  <view class="dogAndCat">
+    <image src="../../img/dog.png" class="dog" mode="aspectFit" bindtap="tapDog"></image>
+    <image src="../../img/cat.png" class="cat" mode="aspectFit" bindtap="tapCat"></image>
+  </view>
+  <radio-group>
+    <label class="radio_name1">
+      <radio checked="{{isDog}}"> 狗</radio>
+    </label>
+    <label class="radio_name2">
+      <radio checked="{{isCat}}"> 猫</radio>
+    </label>
+  </radio-group>
+  <view class="category">
+    <view class="category_bc">
+      <view class="category_title">宠物品种</view>
+      <view class="category1">
+        <picker bindchange="changePetSelected" value="{{index}}" range="{{petArr}}">
+          <view class="picker">{{petArr[index]}}</view>
+        </picker>
+        <image src="../../img/select.png" class="select"></image>
+      </view>
+    </view>
+
+
+    <view class="category_bc1">
+      <view class="category_title">宠物生日</view>
+      <view class="category2">
+        <picker mode="date" value="{{year}}" start="2010-01-01" end="2016-11-24" bindchange="yearSelected">
+          <view class="yearAndMonth">{{year}}</view>
+        </picker>
+        <image src="../../img/select.png" class="select"></image>
+      </view>
+      <view class="category_title">年</view>
+      <view class="category2">
+        <picker mode="index" value="{{month}}" range="{{monthArr}}" bindchange="monthSelected">
+          <view class="yearAndMonth">{{monthArr[month_index]}}</view>
+        </picker>
+        <image src="../../img/select.png" class="select"></image>
+      </view>
+      <view class="category_title">月</view>
+    </view>
+
+    <!--大问题-->
+    <!--<view>asdfasdfasdfsdfas</view>-->
+
+    <!--大问题-->
+    <view class="category_bc">
+      <view class="category_title">宠物性别</view>
+      <radio-group>
+        <label class="category3">
+          <radio style="color:white">     公</radio>
+        </label>
+        <label class="category3">
+          <radio style="color:white">     母</radio>
+        </label>
+      </radio-group>
+    </view>
+
+    <view class="category_bc0">
+        <view class="category_title">您的电话</view>
+        <view class="category4">
+            <input class="input" type="number" placeholder="请输入手机号"/>
+        </view>
+    </view>
+
+  </view>
+     <!--大问题-->
+    <!--<view>asdfasdfasdfsdfas</view>-->
+
+    <!--大问题-->
+  <view class="submit_bc">
+    <button class="submit" bindtap="toSecondPage">确认提交</button>
+  </view>
+ 
+
+</view>

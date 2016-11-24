@@ -1,0 +1,20 @@
+<scroll-view class="container" scroll-y="true">
+    <view class="topLogo">
+        <image src="../../img/logo_left.png" class="leftLogo" mode="aspectFit"></image >
+        <image src="../../img/logo_right.png" class="rightLogo" mode="aspectFit"></image >
+    </view>
+    <view class="loginSuccess text_color">登记成功</view>
+    <view class="erWeiMa">
+        <image src="../../img/2d.png" mode="aspectFit" class="erWeiMa_pic"></image>
+    </view>
+    <view class="ewm_text"><text>凭二维码领取礼品</text></view>
+    <view class="message">
+        <image src="../../img/frame.png" mode="aspectFit" class="message_pic"></image>
+    </view>
+
+    <view class="detail">
+        <image src="../../img/2line_2.png" class="detail_pic" mode="aspectFit"></image>
+    </view>
+
+</scroll-view>
+<scroll-view></scroll-view>

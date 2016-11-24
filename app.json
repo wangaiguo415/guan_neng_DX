@@ -1,0 +1,17 @@
+{
+    "pages": [
+       "pages/welcome/welcome",
+      "pages/head/head",
+      "pages/introduce/introduce"
+     
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "black",
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "冠能",
+      "backgroundColor": "#eeeeee",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": false
+    },
+    "debug":"ture"
+}

@@ -1,0 +1,47 @@
+
+.text_color{
+    color: darkorange;
+}
+.loginSuccess{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+    line-height: 40px;
+    margin: -20px auto 0 auto;
+}
+.erWeiMa{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto 10px auto;
+}
+.erWeiMa .erWeiMa_pic{
+    width: 150px;
+    height: 150px;
+}
+.ewm_text{
+    color: ghostwhite;
+    font-size: 12px;
+    text-align: center;
+}
+
+.message{
+    width: 150px;
+    height: 70px;
+    margin: 10px auto;
+}
+.message .message_pic{
+    width: 150px;
+    height: 70px;
+
+}
+
+.detail{
+    width: 357px;
+    height: 213px;
+    margin: 100px auto 0 0;
+}
+.detail .detail_pic{
+    width: 357px;
+    height: 213px;
+}

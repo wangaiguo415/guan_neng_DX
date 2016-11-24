@@ -1,0 +1,34 @@
+.container_w{
+    width: 750rpx;
+    height: 1152rpx;
+    background-image: url('../../img/bg_2.png');
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    /*background-size: 100% 1000px;*/
+}
+.welcome{
+    width: 240px;
+    line-height: 50px;
+    margin: 50px auto;
+}
+.welcomeText{
+    text-align: center;
+    color: darkorange;
+    font-size: 45px;
+    font-weight: bold;
+}
+.detailText{
+    text-align: center;
+    line-height: 200%;
+    height: 45px;
+    font-size: 25px;
+}
+.welcomeBtn{
+    line-height: 40px;
+    font:30px 500;
+    color: white;
+    width: 200px;
+    background: darkorange;
+    margin: 100px  auto;
+}
